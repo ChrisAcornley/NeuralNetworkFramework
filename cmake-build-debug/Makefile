@@ -149,6 +149,33 @@ source/main.cpp.s:
 	$(MAKE) -f CMakeFiles\CPPANN.dir\build.make CMakeFiles/CPPANN.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
 
+source/neurons/BasicNeuron.obj: source/neurons/BasicNeuron.cpp.obj
+
+.PHONY : source/neurons/BasicNeuron.obj
+
+# target to build an object file
+source/neurons/BasicNeuron.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPANN.dir\build.make CMakeFiles/CPPANN.dir/source/neurons/BasicNeuron.cpp.obj
+.PHONY : source/neurons/BasicNeuron.cpp.obj
+
+source/neurons/BasicNeuron.i: source/neurons/BasicNeuron.cpp.i
+
+.PHONY : source/neurons/BasicNeuron.i
+
+# target to preprocess a source file
+source/neurons/BasicNeuron.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPANN.dir\build.make CMakeFiles/CPPANN.dir/source/neurons/BasicNeuron.cpp.i
+.PHONY : source/neurons/BasicNeuron.cpp.i
+
+source/neurons/BasicNeuron.s: source/neurons/BasicNeuron.cpp.s
+
+.PHONY : source/neurons/BasicNeuron.s
+
+# target to generate assembly for a file
+source/neurons/BasicNeuron.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPANN.dir\build.make CMakeFiles/CPPANN.dir/source/neurons/BasicNeuron.cpp.s
+.PHONY : source/neurons/BasicNeuron.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... source/main.obj
 	@echo ... source/main.i
 	@echo ... source/main.s
+	@echo ... source/neurons/BasicNeuron.obj
+	@echo ... source/neurons/BasicNeuron.i
+	@echo ... source/neurons/BasicNeuron.s
 .PHONY : help
 
 

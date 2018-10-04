@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/main.cpp" "C:/Users/c516792/Documents/UniWork/Projects/CPPANN/cmake-build-debug/CMakeFiles/CPPANN.dir/source/main.cpp.obj"
+  "C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/BasicNeuron.cpp" "C:/Users/c516792/Documents/UniWork/Projects/CPPANN/cmake-build-debug/CMakeFiles/CPPANN.dir/source/neurons/BasicNeuron.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
