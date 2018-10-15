@@ -7,7 +7,10 @@
 
 
 class BasicNeuron {
+public:
     BasicNeuron();
+private:
+
 };
 
 

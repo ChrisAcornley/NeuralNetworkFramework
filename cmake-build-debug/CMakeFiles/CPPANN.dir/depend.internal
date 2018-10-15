@@ -3,3 +3,9 @@
 
 CMakeFiles/CPPANN.dir/source/main.cpp.obj
  C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/main.cpp
+CMakeFiles/CPPANN.dir/source/neurons/BasicConnection.cpp.obj
+ C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/BasicConnection.cpp
+ C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/BasicConnection.h
+CMakeFiles/CPPANN.dir/source/neurons/BasicNeuron.cpp.obj
+ C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/BasicNeuron.cpp
+ C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/BasicNeuron.h

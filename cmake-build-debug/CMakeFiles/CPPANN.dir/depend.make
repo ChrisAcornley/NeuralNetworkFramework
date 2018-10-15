@@ -3,3 +3,9 @@
 
 CMakeFiles/CPPANN.dir/source/main.cpp.obj: ../source/main.cpp
 
+CMakeFiles/CPPANN.dir/source/neurons/BasicConnection.cpp.obj: ../source/neurons/BasicConnection.cpp
+CMakeFiles/CPPANN.dir/source/neurons/BasicConnection.cpp.obj: ../source/neurons/BasicConnection.h
+
+CMakeFiles/CPPANN.dir/source/neurons/BasicNeuron.cpp.obj: ../source/neurons/BasicNeuron.cpp
+CMakeFiles/CPPANN.dir/source/neurons/BasicNeuron.cpp.obj: ../source/neurons/BasicNeuron.h
+
