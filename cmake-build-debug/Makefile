@@ -149,33 +149,6 @@ source/main.cpp.s:
 	$(MAKE) -f CMakeFiles\CPPANN.dir\build.make CMakeFiles/CPPANN.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
 
-source/neurons/BasicConnection.obj: source/neurons/BasicConnection.cpp.obj
-
-.PHONY : source/neurons/BasicConnection.obj
-
-# target to build an object file
-source/neurons/BasicConnection.cpp.obj:
-	$(MAKE) -f CMakeFiles\CPPANN.dir\build.make CMakeFiles/CPPANN.dir/source/neurons/BasicConnection.cpp.obj
-.PHONY : source/neurons/BasicConnection.cpp.obj
-
-source/neurons/BasicConnection.i: source/neurons/BasicConnection.cpp.i
-
-.PHONY : source/neurons/BasicConnection.i
-
-# target to preprocess a source file
-source/neurons/BasicConnection.cpp.i:
-	$(MAKE) -f CMakeFiles\CPPANN.dir\build.make CMakeFiles/CPPANN.dir/source/neurons/BasicConnection.cpp.i
-.PHONY : source/neurons/BasicConnection.cpp.i
-
-source/neurons/BasicConnection.s: source/neurons/BasicConnection.cpp.s
-
-.PHONY : source/neurons/BasicConnection.s
-
-# target to generate assembly for a file
-source/neurons/BasicConnection.cpp.s:
-	$(MAKE) -f CMakeFiles\CPPANN.dir\build.make CMakeFiles/CPPANN.dir/source/neurons/BasicConnection.cpp.s
-.PHONY : source/neurons/BasicConnection.cpp.s
-
 source/neurons/BasicNeuron.obj: source/neurons/BasicNeuron.cpp.obj
 
 .PHONY : source/neurons/BasicNeuron.obj
@@ -203,6 +176,33 @@ source/neurons/BasicNeuron.cpp.s:
 	$(MAKE) -f CMakeFiles\CPPANN.dir\build.make CMakeFiles/CPPANN.dir/source/neurons/BasicNeuron.cpp.s
 .PHONY : source/neurons/BasicNeuron.cpp.s
 
+source/neurons/connections/BasicConnection.obj: source/neurons/connections/BasicConnection.cpp.obj
+
+.PHONY : source/neurons/connections/BasicConnection.obj
+
+# target to build an object file
+source/neurons/connections/BasicConnection.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPANN.dir\build.make CMakeFiles/CPPANN.dir/source/neurons/connections/BasicConnection.cpp.obj
+.PHONY : source/neurons/connections/BasicConnection.cpp.obj
+
+source/neurons/connections/BasicConnection.i: source/neurons/connections/BasicConnection.cpp.i
+
+.PHONY : source/neurons/connections/BasicConnection.i
+
+# target to preprocess a source file
+source/neurons/connections/BasicConnection.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPANN.dir\build.make CMakeFiles/CPPANN.dir/source/neurons/connections/BasicConnection.cpp.i
+.PHONY : source/neurons/connections/BasicConnection.cpp.i
+
+source/neurons/connections/BasicConnection.s: source/neurons/connections/BasicConnection.cpp.s
+
+.PHONY : source/neurons/connections/BasicConnection.s
+
+# target to generate assembly for a file
+source/neurons/connections/BasicConnection.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPANN.dir\build.make CMakeFiles/CPPANN.dir/source/neurons/connections/BasicConnection.cpp.s
+.PHONY : source/neurons/connections/BasicConnection.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -215,12 +215,12 @@ help:
 	@echo ... source/main.obj
 	@echo ... source/main.i
 	@echo ... source/main.s
-	@echo ... source/neurons/BasicConnection.obj
-	@echo ... source/neurons/BasicConnection.i
-	@echo ... source/neurons/BasicConnection.s
 	@echo ... source/neurons/BasicNeuron.obj
 	@echo ... source/neurons/BasicNeuron.i
 	@echo ... source/neurons/BasicNeuron.s
+	@echo ... source/neurons/connections/BasicConnection.obj
+	@echo ... source/neurons/connections/BasicConnection.i
+	@echo ... source/neurons/connections/BasicConnection.s
 .PHONY : help
 
 
