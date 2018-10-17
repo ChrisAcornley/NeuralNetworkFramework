@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CPPANN.dir/source/main.cpp.obj"
+  "CMakeFiles/CPPANN.dir/source/neurons/BasicNeuron.cpp.obj"
+  "CMakeFiles/CPPANN.dir/source/neurons/connections/Connection.cpp.obj"
   "CPPANN.pdb"
   "CPPANN.exe"
   "CPPANN.exe.manifest"

@@ -9,4 +9,20 @@
 C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/main.cpp
 iostream
 -
+neurons/connections/Connection.h
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.h
+
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/BasicConnection.h
+
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.cpp
+Connection.h
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.h
+
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.h
+OperatorConnection.h
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/OperatorConnection.h
+
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/OperatorConnection.h
+BasicConnection.h
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/BasicConnection.h
 
