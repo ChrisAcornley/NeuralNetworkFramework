@@ -84,32 +84,32 @@ CMakeFiles/CPPANN.dir/source/neurons/BasicNeuron.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPANN.dir/source/neurons/BasicNeuron.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\c516792\Documents\UniWork\Projects\CPPANN\source\neurons\BasicNeuron.cpp -o CMakeFiles\CPPANN.dir\source\neurons\BasicNeuron.cpp.s
 
-CMakeFiles/CPPANN.dir/source/neurons/connections/BasicConnection.cpp.obj: CMakeFiles/CPPANN.dir/flags.make
-CMakeFiles/CPPANN.dir/source/neurons/connections/BasicConnection.cpp.obj: CMakeFiles/CPPANN.dir/includes_CXX.rsp
-CMakeFiles/CPPANN.dir/source/neurons/connections/BasicConnection.cpp.obj: ../source/neurons/connections/BasicConnection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\c516792\Documents\UniWork\Projects\CPPANN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPPANN.dir/source/neurons/connections/BasicConnection.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPPANN.dir\source\neurons\connections\BasicConnection.cpp.obj -c C:\Users\c516792\Documents\UniWork\Projects\CPPANN\source\neurons\connections\BasicConnection.cpp
+CMakeFiles/CPPANN.dir/source/neurons/connections/Connection.cpp.obj: CMakeFiles/CPPANN.dir/flags.make
+CMakeFiles/CPPANN.dir/source/neurons/connections/Connection.cpp.obj: CMakeFiles/CPPANN.dir/includes_CXX.rsp
+CMakeFiles/CPPANN.dir/source/neurons/connections/Connection.cpp.obj: ../source/neurons/connections/Connection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\c516792\Documents\UniWork\Projects\CPPANN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPPANN.dir/source/neurons/connections/Connection.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPPANN.dir\source\neurons\connections\Connection.cpp.obj -c C:\Users\c516792\Documents\UniWork\Projects\CPPANN\source\neurons\connections\Connection.cpp
 
-CMakeFiles/CPPANN.dir/source/neurons/connections/BasicConnection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPANN.dir/source/neurons/connections/BasicConnection.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\c516792\Documents\UniWork\Projects\CPPANN\source\neurons\connections\BasicConnection.cpp > CMakeFiles\CPPANN.dir\source\neurons\connections\BasicConnection.cpp.i
+CMakeFiles/CPPANN.dir/source/neurons/connections/Connection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPANN.dir/source/neurons/connections/Connection.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\c516792\Documents\UniWork\Projects\CPPANN\source\neurons\connections\Connection.cpp > CMakeFiles\CPPANN.dir\source\neurons\connections\Connection.cpp.i
 
-CMakeFiles/CPPANN.dir/source/neurons/connections/BasicConnection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPANN.dir/source/neurons/connections/BasicConnection.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\c516792\Documents\UniWork\Projects\CPPANN\source\neurons\connections\BasicConnection.cpp -o CMakeFiles\CPPANN.dir\source\neurons\connections\BasicConnection.cpp.s
+CMakeFiles/CPPANN.dir/source/neurons/connections/Connection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPANN.dir/source/neurons/connections/Connection.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\c516792\Documents\UniWork\Projects\CPPANN\source\neurons\connections\Connection.cpp -o CMakeFiles\CPPANN.dir\source\neurons\connections\Connection.cpp.s
 
 # Object files for target CPPANN
 CPPANN_OBJECTS = \
 "CMakeFiles/CPPANN.dir/source/main.cpp.obj" \
 "CMakeFiles/CPPANN.dir/source/neurons/BasicNeuron.cpp.obj" \
-"CMakeFiles/CPPANN.dir/source/neurons/connections/BasicConnection.cpp.obj"
+"CMakeFiles/CPPANN.dir/source/neurons/connections/Connection.cpp.obj"
 
 # External object files for target CPPANN
 CPPANN_EXTERNAL_OBJECTS =
 
 CPPANN.exe: CMakeFiles/CPPANN.dir/source/main.cpp.obj
 CPPANN.exe: CMakeFiles/CPPANN.dir/source/neurons/BasicNeuron.cpp.obj
-CPPANN.exe: CMakeFiles/CPPANN.dir/source/neurons/connections/BasicConnection.cpp.obj
+CPPANN.exe: CMakeFiles/CPPANN.dir/source/neurons/connections/Connection.cpp.obj
 CPPANN.exe: CMakeFiles/CPPANN.dir/build.make
 CPPANN.exe: CMakeFiles/CPPANN.dir/linklibs.rsp
 CPPANN.exe: CMakeFiles/CPPANN.dir/objects1.rsp

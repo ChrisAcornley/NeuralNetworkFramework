@@ -6,14 +6,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/main.cpp" "C:/Users/c516792/Documents/UniWork/Projects/CPPANN/cmake-build-debug/CMakeFiles/CPPANN.dir/source/main.cpp.obj"
   "C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/BasicNeuron.cpp" "C:/Users/c516792/Documents/UniWork/Projects/CPPANN/cmake-build-debug/CMakeFiles/CPPANN.dir/source/neurons/BasicNeuron.cpp.obj"
-  "C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/BasicConnection.cpp" "C:/Users/c516792/Documents/UniWork/Projects/CPPANN/cmake-build-debug/CMakeFiles/CPPANN.dir/source/neurons/connections/BasicConnection.cpp.obj"
+  "C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.cpp" "C:/Users/c516792/Documents/UniWork/Projects/CPPANN/cmake-build-debug/CMakeFiles/CPPANN.dir/source/neurons/connections/Connection.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../source/neurons"
-  "../source/neurons/connectionss"
+  "../source/neurons/connections"
   )
 
 # Targets to which this target links.

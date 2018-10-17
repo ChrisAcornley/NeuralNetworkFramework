@@ -7,10 +7,15 @@
 
 class BasicNeuron;
 
-template <typename W, typename T> class BasicConnection {
+template <typename W> class BasicConnection {
 public:
-    void init(W startWeighting, BasicNeuron* newSource, BasicNeuron* newTarget);
-    virtual void pass(T input){};
+    void init(W startWeighting, BasicNeuron* newSource, BasicNeuron* newTarget)
+    {
+        weighting = startWeighting;
+        targetNode = newTarget;
+        sourceNode = newSource;
+    }
+    virtual void pass(W input) = 0;
 public:
     void setWeighting(W weighting) {
         this->weighting = weighting;

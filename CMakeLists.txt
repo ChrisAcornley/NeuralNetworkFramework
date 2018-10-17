@@ -13,11 +13,10 @@ set(CPPANN_VERSION_MINOR 0)
 
 #Header files
 include_directories(source/neurons)
-include_directories(source/neurons/connectionss)
+include_directories(source/neurons/connections)
 
 #Manual include source files
 set(NEURONSOURCE source/neurons/BasicNeuron.cpp)
-set(CONNECTIONSOURCE source/neurons/connections/BasicConnection.cpp)
 
 #Executable and location of Source (.cpp) files
 add_executable(${PROJECT_NAME} source/main.cpp ${NEURONSOURCE} ${CONNECTIONSOURCE})

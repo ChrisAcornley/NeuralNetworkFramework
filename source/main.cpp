@@ -1,13 +1,14 @@
 #include <iostream>
 
-#include "neurons/connections/OperatorConnection.h"
+#include "neurons/connections/Connection.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
-    OperatorConnection<double, double> op;
-
-    op+=5;
+    Connection<double> op;
+    op.init(0.4, 0, 0);
+    op+=5.3;
+    op(4.0);
 
     std::cout << op.getWeighting() << std::endl;
 

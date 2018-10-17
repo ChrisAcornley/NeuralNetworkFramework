@@ -7,7 +7,7 @@
 
 #include "BasicConnection.h"
 
-template<typename W, typename T> class OperatorConnection : public BasicConnection<W,T>{
+template<typename W> class OperatorConnection : public BasicConnection<W>{
 public:
     W operator+(const W a)
     {
@@ -45,9 +45,9 @@ public:
     {
         return (this->weighting = a);
     }
-    void operator()(const T input)
+    void operator()(const W input)
     {
-        pass(input);
+        this->pass(input);
     }
 };
 
