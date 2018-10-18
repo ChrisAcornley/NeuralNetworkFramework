@@ -8,14 +8,15 @@
 
 #include "OperatorConnection.h"
 
-template<typename W>
-class Connection : public OperatorConnection<W>{
-public:
-    void pass(W input) override
-    {
-        // Apparently header file shite is best here
-    }
-};
+namespace CPPANN {
 
+    template<typename ConType>
+    class Connection : public OperatorConnection<ConType> {
+    public:
+        void pass(ConType input) override {
+            // Apparently header file shite is best here
+        }
+    };
+}
 
 #endif //CPPANN_CONNECTION_H

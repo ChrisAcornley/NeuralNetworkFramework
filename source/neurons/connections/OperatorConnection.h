@@ -7,48 +7,50 @@
 
 #include "BasicConnection.h"
 
-template<typename W> class OperatorConnection : public BasicConnection<W>{
-public:
-    W operator+(const W a)
-    {
-        return (this->weighting + a);
-    }
-    W operator-(const W a)
-    {
-        return (this->weighting - a);
-    }
-    W operator*(const W a)
-    {
-        return (this->weighting * a);
-    }
-    W operator/(const W a)
-    {
-        return (this->weighting / a);
-    }
-    W operator+=(const W a)
-    {
-        return (this->weighting += a);
-    }
-    W operator-=(const W a)
-    {
-        return (this->weighting -= a);
-    }
-    W operator*=(const W a)
-    {
-        return (this->weighting *= a);
-    }
-    W operator/=(const W a)
-    {
-        return (this->weighting /= a);
-    }
-    W operator=(const W a)
-    {
-        return (this->weighting = a);
-    }
-    void operator()(const W input)
-    {
-        this->pass(input);
-    }
-};
+namespace CPPANN {
+    template<typename W>
+    class OperatorConnection : public BasicConnection<W> {
+    public:
+        W operator+(const W a) {
+            return (this->weighting + a);
+        }
+
+        W operator-(const W a) {
+            return (this->weighting - a);
+        }
+
+        W operator*(const W a) {
+            return (this->weighting * a);
+        }
+
+        W operator/(const W a) {
+            return (this->weighting / a);
+        }
+
+        W operator+=(const W a) {
+            return (this->weighting += a);
+        }
+
+        W operator-=(const W a) {
+            return (this->weighting -= a);
+        }
+
+        W operator*=(const W a) {
+            return (this->weighting *= a);
+        }
+
+        W operator/=(const W a) {
+            return (this->weighting /= a);
+        }
+
+        W operator=(const W a) {
+            return (this->weighting = a);
+        }
+
+        void operator()(const W input) {
+            this->pass(input);
+        }
+    };
+}
 
 #endif //CPPANN_OPERATORCONNECTION_H

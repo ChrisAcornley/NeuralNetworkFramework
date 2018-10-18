@@ -2,6 +2,8 @@
 
 #include "neurons/connections/Connection.h"
 
+using namespace CPPANN;
+
 int main() {
     std::cout << "Hello, World!" << std::endl;
 

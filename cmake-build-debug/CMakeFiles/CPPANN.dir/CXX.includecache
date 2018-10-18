@@ -12,11 +12,13 @@ iostream
 neurons/connections/Connection.h
 C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.h
 
-C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/BasicConnection.h
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/BasicNeuron.cpp
+BasicNeuron.h
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/BasicNeuron.h
 
-C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.cpp
-Connection.h
-C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.h
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/BasicNeuron.h
+
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/BasicConnection.h
 
 C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.h
 OperatorConnection.h

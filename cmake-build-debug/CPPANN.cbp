@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/signals"/>
 					<Add directory="C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons"/>
 					<Add directory="C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
@@ -48,6 +49,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/signals"/>
 					<Add directory="C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons"/>
 					<Add directory="C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
@@ -93,12 +95,6 @@
 			<Option target="CPPANN"/>
 		</Unit>
 		<Unit filename="C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/BasicNeuron.h">
-			<Option target="CPPANN"/>
-		</Unit>
-		<Unit filename="C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.cpp">
-			<Option target="CPPANN"/>
-		</Unit>
-		<Unit filename="C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.h">
 			<Option target="CPPANN"/>
 		</Unit>
 		<Unit filename="C:/Users/c516792/Documents/UniWork/Projects/CPPANN/CMakeLists.txt">

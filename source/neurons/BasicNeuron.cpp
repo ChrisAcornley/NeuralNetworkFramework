@@ -4,6 +4,9 @@
 
 #include "BasicNeuron.h"
 
-BasicNeuron::BasicNeuron() {
-    // Do nothing for now
+namespace CPPANN {
+
+    BasicNeuron::BasicNeuron() {
+        // Do nothing for now
+    }
 }
