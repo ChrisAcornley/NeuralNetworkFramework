@@ -14,5 +14,4 @@ namespace CPPANN {
     };
 }
 
-
 #endif //CPPANN_BASICNEURON_H

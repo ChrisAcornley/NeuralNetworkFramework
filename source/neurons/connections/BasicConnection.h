@@ -5,6 +5,8 @@
 #ifndef CPPANN_BASICCONNECTION_H
 #define CPPANN_BASICCONNECTION_H
 
+#include "Signals.h"
+
 namespace CPPANN {
     class BasicNeuron;
 
@@ -44,10 +46,15 @@ namespace CPPANN {
             return targetNode;
         }
 
+        Signal2<W,W>& getSignal() {
+            return passSignal;
+        }
+
     protected:
         W weighting = 0;
         BasicNeuron *sourceNode = nullptr;
         BasicNeuron *targetNode = nullptr;
+        Signal2<W, W> passSignal;
     };
 }
 #endif //CPPANN_BASICCONNECTION_H

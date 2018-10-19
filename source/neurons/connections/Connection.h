@@ -15,6 +15,7 @@ namespace CPPANN {
     public:
         void pass(ConType input) override {
             // Apparently header file shite is best here
+            this->passSignal(this->weighting, input);
         }
     };
 }

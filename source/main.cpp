@@ -1,8 +1,21 @@
 #include <iostream>
 
-#include "neurons/connections/Connection.h"
+#include "Connection.h"
 
 using namespace CPPANN;
+
+struct test
+{
+    void Connect(Signal2<double, double>& signal)
+    {
+        signal.Connect(MAKE_DELEGATE(&test::testFunc, this));
+    }
+
+    void testFunc(double w, double in)
+    {
+        std::cout << "Weighting is: " << w << "\tand the input is: " << in << std::endl;
+    }
+};
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -10,9 +23,11 @@ int main() {
     Connection<double> op;
     op.init(0.4, 0, 0);
     op+=5.3;
-    op(4.0);
 
-    std::cout << op.getWeighting() << std::endl;
+    test opSignal;
+    opSignal.Connect(op.getSignal());
+
+    op(4.0);
 
     return 0;
 }

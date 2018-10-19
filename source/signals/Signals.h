@@ -9,7 +9,7 @@
 #define CPPANN_SIGNALS_HPP
 
 #include <assert.h>
-#include "Core/Delegates.hpp"
+#include "Delegates.h"
 
 namespace CPPANN
 {
@@ -35,9 +35,9 @@ namespace CPPANN
 
 #define ADD_DELEGATE(A, B) addDelegateToSignal(A, B)
 
-	template<class _DelType> void removeDelegateFromSignal(_DelType del, std::vector<_DelType>& delVector)
+	template<typename _DelType> void removeDelegateFromSignal(_DelType del, std::vector<_DelType>& delVector)
 	{
-		std::vector<_DelType>::iterator itr = delVector.begin();
+		auto itr = delVector.begin();
 		for (itr; itr != delVector.end(); itr++)
 		{
 			if ((*itr)->getContextId() == del->getContextId())
@@ -163,16 +163,16 @@ namespace CPPANN
 
 		void operator()(A arg1)
 		{
-			broadcasting = true;
+			this->broadcasting = true;
 
-			for (auto callback : delegates)
+			for (auto callback : this->delegates)
 			{
 				callback->Emit(arg1);
 			}
 
-			broadcasting = false;
+			this->broadcasting = false;
 
-			updateDelegateLists();
+			this->updateDelegateLists();
 		}
 	};
 
@@ -187,16 +187,16 @@ namespace CPPANN
 
 		void operator()(A arg1, B arg2)
 		{
-			broadcasting = true;
+			this->broadcasting = true;
 
-			for (auto callback : delegates)
+			for (auto callback : this->delegates)
 			{
 				callback->Emit(arg1, arg2);
 			}
 
-			broadcasting = false;
+			this->broadcasting = false;
 
-			updateDelegateLists();
+			this->updateDelegateLists();
 		}
 	};
 
@@ -211,16 +211,16 @@ namespace CPPANN
 
 		void operator()(A arg1, B arg2, C arg3)
 		{
-			broadcasting = true;
+			this->broadcasting = true;
 
-			for (auto callback : delegates)
+			for (auto callback : this->delegates)
 			{
 				callback->Emit(arg1, arg2, arg3);
 			}
 
-			broadcasting = false;
+			this->broadcasting = false;
 
-			updateDelegateLists();
+			this->updateDelegateLists();
 		}
 	};
 
@@ -235,16 +235,16 @@ namespace CPPANN
 
 		void operator()(A arg1, B arg2, C arg3, D arg4)
 		{
-			broadcasting = true;
+			this->broadcasting = true;
 
-			for (auto callback : delegates)
+			for (auto callback : this->delegates)
 			{
 				callback->Emit(arg1, arg2, arg3, arg4);
 			}
 
-			broadcasting = false;
+			this->broadcasting = false;
 
-			updateDelegateLists();
+			this->updateDelegateLists();
 		}
 	};
 
@@ -259,16 +259,16 @@ namespace CPPANN
 
 		void operator()(A arg1, B arg2, C arg3, D arg4, E arg5)
 		{
-			broadcasting = true;
+			this->broadcasting = true;
 
-			for (auto callback : delegates)
+			for (auto callback : this->delegates)
 			{
 				callback->Emit(arg1, arg2, arg3, arg4, arg5);
 			}
 
-			broadcasting = false;
+			this->broadcasting = false;
 
-			updateDelegateLists();
+			this->updateDelegateLists();
 		}
 	};
 
@@ -283,16 +283,16 @@ namespace CPPANN
 
 		void operator()(A arg1, B arg2, C arg3, D arg4, E arg5, F arg6)
 		{
-			broadcasting = true;
+			this->broadcasting = true;
 
-			for (auto callback : delegates)
+			for (auto callback : this->delegates)
 			{
 				callback->Emit(arg1, arg2, arg3, arg4, arg5, arg6);
 			}
 
-			broadcasting = false;
+			this->broadcasting = false;
 
-			updateDelegateLists();
+			this->updateDelegateLists();
 		}
 	};
 
@@ -307,16 +307,16 @@ namespace CPPANN
 
 		void operator()(A arg1, B arg2, C arg3, D arg4, E arg5, F arg6, G arg7)
 		{
-			broadcasting = true;
+			this->broadcasting = true;
 
-			for (auto callback : delegates)
+			for (auto callback : this->delegates)
 			{
 				callback->Emit(arg1, arg2, arg3, arg4, arg5, arg6, arg7);
 			}
 
-			broadcasting = false;
+			this->broadcasting = false;
 
-			updateDelegateLists();
+			this->updateDelegateLists();
 		}
 	};
 
@@ -331,16 +331,16 @@ namespace CPPANN
 
 		void operator()(A arg1, B arg2, C arg3, D arg4, E arg5, F arg6, G arg7, H arg8)
 		{
-			broadcasting = true;
+			this->broadcasting = true;
 
-			for (auto callback : delegates)
+			for (auto callback : this->delegates)
 			{
 				callback->Emit(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8);
 			}
 
-			broadcasting = false;
+			this->broadcasting = false;
 
-			updateDelegateLists();
+			this->updateDelegateLists();
 		}
 	};
 
@@ -355,16 +355,16 @@ namespace CPPANN
 
 		void operator()(A arg1, B arg2, C arg3, D arg4, E arg5, F arg6, G arg7, H arg8, I arg9)
 		{
-			broadcasting = true;
+			this->broadcasting = true;
 
-			for (auto callback : delegates)
+			for (auto callback : this->delegates)
 			{
 				callback->Emit(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9);
 			}
 
-			broadcasting = false;
+			this->broadcasting = false;
 
-			updateDelegateLists();
+			this->updateDelegateLists();
 		}
 	};
 }

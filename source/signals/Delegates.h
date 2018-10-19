@@ -8,11 +8,11 @@
 #ifndef CPPANN_DELEGATES_HPP
 #define CPPANN_DELEGATES_HPP
 
-#include<vector>
-#include<functional>
-#include<iostream>
+#include <vector>
+#include <functional>
+#include <iostream>
 
-namespace ChivalryWars
+namespace CPPANN
 {
 	using namespace std::placeholders;
 
@@ -167,7 +167,7 @@ namespace ChivalryWars
 
 		void Emit(A arg1, B arg2, C arg3, D arg4, E arg5, F arg6, G arg7)
 		{
-			functionCall(arg1, arg2, arg3, arg4, arg5, arg6, arg 7);
+			functionCall(arg1, arg2, arg3, arg4, arg5, arg6, arg7);
 		}
 
 	private:
