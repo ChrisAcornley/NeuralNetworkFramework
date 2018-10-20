@@ -8,46 +8,46 @@
 #include "BasicConnection.h"
 
 namespace CPPANN {
-    template<typename W>
-    class OperatorConnection : public BasicConnection<W> {
+
+    class OperatorConnection : public BasicConnection {
     public:
-        W operator+(const W a) {
+        double operator+(const double a) {
             return (this->weighting + a);
         }
 
-        W operator-(const W a) {
+        double operator-(const double a) {
             return (this->weighting - a);
         }
 
-        W operator*(const W a) {
+        double operator*(const double a) {
             return (this->weighting * a);
         }
 
-        W operator/(const W a) {
+        double operator/(const double a) {
             return (this->weighting / a);
         }
 
-        W operator+=(const W a) {
+        double operator+=(const double a) {
             return (this->weighting += a);
         }
 
-        W operator-=(const W a) {
+        double operator-=(const double a) {
             return (this->weighting -= a);
         }
 
-        W operator*=(const W a) {
+        double operator*=(const double a) {
             return (this->weighting *= a);
         }
 
-        W operator/=(const W a) {
+        double operator/=(const double a) {
             return (this->weighting /= a);
         }
 
-        W operator=(const W a) {
+        double operator=(const double a) {
             return (this->weighting = a);
         }
 
-        void operator()(const W input) {
+        void operator()(const double input) {
             this->pass(input);
         }
     };

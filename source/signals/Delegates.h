@@ -88,7 +88,7 @@ namespace CPPANN
 	{
 	public:
 		Delegate3(std::function<void(A, B, C)> callback)
-		: Delegate((int)callback.target_type().hash_code())
+		: Delegate(callback.target_type().name())
 		, functionCall(callback)
 		{
 		}
@@ -106,7 +106,7 @@ namespace CPPANN
 	{
 	public:
 		Delegate4(std::function<void(A, B, C, D)> callback)
-		: Delegate((int)callback.target_type().hash_code())
+		: Delegate(callback.target_type().name())
 		, functionCall(callback)
 		{
 		}
@@ -124,7 +124,7 @@ namespace CPPANN
 	{
 	public:
 		Delegate5(std::function<void(A, B, C, D, E)> callback)
-		: Delegate((int)callback.target_type().hash_code())
+		: Delegate(callback.target_type().name())
 		, functionCall(callback)
 		{
 		}
@@ -142,7 +142,7 @@ namespace CPPANN
 	{
 	public:
 		Delegate6(std::function<void(A, B, C, D, E, F)> callback)
-		: Delegate((int)callback.target_type().hash_code())
+		: Delegate(callback.target_type().name())
 		, functionCall(callback)
 		{
 		}
@@ -160,7 +160,7 @@ namespace CPPANN
 	{
 	public:
 		Delegate7(std::function<void(A, B, C, D, E, F, G)> callback)
-		: Delegate((int)callback.target_type().hash_code())
+		: Delegate(callback.target_type().name())
 		, functionCall(callback)
 		{
 		}
@@ -178,7 +178,7 @@ namespace CPPANN
 	{
 	public:
 		Delegate8(std::function<void(A, B, C, D, E, F, G, H)> callback)
-		: Delegate((int)callback.target_type().hash_code())
+		: Delegate(callback.target_type().name())
 		, functionCall(callback)
 		{
 		}
@@ -196,7 +196,7 @@ namespace CPPANN
 	{
 	public:
 		Delegate9(std::function<void(A, B, C, D, E, F, G, H, I)> callback)
-		: Delegate((int)callback.target_type().hash_code())
+		: Delegate(callback.target_type().name())
 		, functionCall(callback)
 		{
 		}

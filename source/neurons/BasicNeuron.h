@@ -5,10 +5,15 @@
 #ifndef CPPANN_BASICNEURON_H
 #define CPPANN_BASICNEURON_H
 
+
+
 namespace CPPANN {
+
     class BasicNeuron {
     public:
         BasicNeuron();
+
+        void recieve(double inputSignal);
     private:
 
     };

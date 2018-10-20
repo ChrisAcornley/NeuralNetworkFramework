@@ -10,12 +10,17 @@
 
 namespace CPPANN {
 
-    template<typename ConType>
-    class Connection : public OperatorConnection<ConType> {
+    class Connection : public OperatorConnection {
     public:
-        void pass(ConType input) override {
-            // Apparently header file shite is best here
-            this->passSignal(this->weighting, input);
+        void pass(double input) override {
+            // Create and calculate output
+            double output = this->weighting * input;
+
+            // Fire the signal
+            this->onPassSignal(this->weighting, input, output);
+
+            // Pass the output to the target
+            this->targetNode->recieve(output);
         }
     };
 }

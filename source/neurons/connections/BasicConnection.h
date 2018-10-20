@@ -6,23 +6,22 @@
 #define CPPANN_BASICCONNECTION_H
 
 #include "Signals.h"
+#include "BasicNeuron.h"
 
 namespace CPPANN {
-    class BasicNeuron;
 
-    template<typename W>
     class BasicConnection {
     public:
-        void init(W startWeighting, BasicNeuron *newSource, BasicNeuron *newTarget) {
+        void init(double startWeighting, BasicNeuron *newSource, BasicNeuron *newTarget) {
             weighting = startWeighting;
             targetNode = newTarget;
             sourceNode = newSource;
         }
 
-        virtual void pass(W input) = 0;
+        virtual void pass(double input) = 0;
 
     public:
-        void setWeighting(W weighting) {
+        void setWeighting(double weighting) {
             this->weighting = weighting;
         }
 
@@ -34,7 +33,7 @@ namespace CPPANN {
             this->targetNode = targetNode;
         }
 
-        W getWeighting() const {
+        double getWeighting() const {
             return weighting;
         }
 
@@ -46,15 +45,15 @@ namespace CPPANN {
             return targetNode;
         }
 
-        Signal2<W,W>& getSignal() {
-            return passSignal;
+        Signal3<double, double, double>& getOnPassSignal() {
+            return onPassSignal;
         }
 
     protected:
-        W weighting = 0;
+        double weighting = 0;
         BasicNeuron *sourceNode = nullptr;
         BasicNeuron *targetNode = nullptr;
-        Signal2<W, W> passSignal;
+        Signal3<double, double, double> onPassSignal;
     };
 }
 #endif //CPPANN_BASICCONNECTION_H

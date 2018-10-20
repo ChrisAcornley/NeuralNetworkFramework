@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
+../source/neurons/BasicNeuron.h
+
 ../source/neurons/connections/BasicConnection.h
 Signals.h
 ../source/neurons/connections/Signals.h
+BasicNeuron.h
+../source/neurons/connections/BasicNeuron.h
 
 ../source/neurons/connections/Connection.h
 OperatorConnection.h
