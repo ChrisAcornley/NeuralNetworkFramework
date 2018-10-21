@@ -10,7 +10,19 @@ namespace CPPANN {
         // Do nothing for now
     }
 
-    void BasicNeuron::recieve(double inputSignal) {
-        // Recieve input from connection, weighting is now added
+    void BasicNeuron::receive(double inputSignal) {
+        // Receive input from connection, weighting is now added
+    }
+
+    void BasicNeuron::update() {
+
+    }
+
+    void BasicNeuron::addConnection(Connection *newConnection, const std::string &connectionName) {
+
+    }
+
+    void BasicNeuron::removeConnection(const std::string &connectionName) {
+
     }
 }

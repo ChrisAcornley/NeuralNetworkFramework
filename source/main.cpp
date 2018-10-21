@@ -21,7 +21,7 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
 
     Connection op;
-    op.init(0.4, 0, 0);
+    op.init(0.4, 0);
     op+=5.3;
 
     test opSignal;

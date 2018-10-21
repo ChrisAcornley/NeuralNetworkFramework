@@ -7,12 +7,14 @@
 #IncludeRegexTransform: 
 
 ../source/neurons/BasicNeuron.h
+Signals.h
+../source/neurons/Signals.h
+unordered_map
+-
 
 ../source/neurons/connections/BasicConnection.h
 Signals.h
 ../source/neurons/connections/Signals.h
-BasicNeuron.h
-../source/neurons/connections/BasicNeuron.h
 
 ../source/neurons/connections/Connection.h
 OperatorConnection.h
@@ -41,4 +43,22 @@ iostream
 -
 Connection.h
 C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/Connection.h
+
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/BasicConnection.h
+Signals.h
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Signals.h
+
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.cpp
+Connection.h
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.h
+BasicNeuron.h
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/BasicNeuron.h
+
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.h
+OperatorConnection.h
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/OperatorConnection.h
+
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/OperatorConnection.h
+BasicConnection.h
+C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/BasicConnection.h
 

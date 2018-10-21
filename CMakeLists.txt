@@ -17,7 +17,7 @@ include_directories(source/neurons)
 include_directories(source/neurons/connections)
 
 #Manual include source files
-set(NEURONSOURCE source/neurons/BasicNeuron.cpp)
+set(NEURONSOURCE source/neurons/BasicNeuron.cpp source/neurons/connections/Connection.cpp)
 
 #Executable and location of Source (.cpp) files
 add_executable(${PROJECT_NAME} source/main.cpp ${NEURONSOURCE})

@@ -97,6 +97,12 @@
 		<Unit filename="C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/BasicNeuron.h">
 			<Option target="CPPANN"/>
 		</Unit>
+		<Unit filename="C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.cpp">
+			<Option target="CPPANN"/>
+		</Unit>
+		<Unit filename="C:/Users/c516792/Documents/UniWork/Projects/CPPANN/source/neurons/connections/Connection.h">
+			<Option target="CPPANN"/>
+		</Unit>
 		<Unit filename="C:/Users/c516792/Documents/UniWork/Projects/CPPANN/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

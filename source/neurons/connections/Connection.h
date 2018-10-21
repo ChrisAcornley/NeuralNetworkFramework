@@ -12,16 +12,7 @@ namespace CPPANN {
 
     class Connection : public OperatorConnection {
     public:
-        void pass(double input) override {
-            // Create and calculate output
-            double output = this->weighting * input;
-
-            // Fire the signal
-            this->onPassSignal(this->weighting, input, output);
-
-            // Pass the output to the target
-            this->targetNode->recieve(output);
-        }
+        void pass(double input) override;
     };
 }
 
