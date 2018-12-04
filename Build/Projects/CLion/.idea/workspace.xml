@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="CPPANN" targetName="CPPANN" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86b9e01d-3996-4d01-bdd1-5a77a8a15f05" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/source/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/source/neurons/BasicConnection.cpp" />
+        <option value="$PROJECT_DIR$/source/neurons/BasicConnection.h" />
+        <option value="$PROJECT_DIR$/source/neurons/connections/BasicConnection.cpp" />
+        <option value="$PROJECT_DIR$/source/signals/Signals.hpp" />
+        <option value="$PROJECT_DIR$/source/signals/Delegates.hpp" />
+        <option value="$PROJECT_DIR$/source/signals/Signals.h" />
+        <option value="$PROJECT_DIR$/source/signals/Delegates.h" />
+        <option value="$PROJECT_DIR$/source/neurons/connections/OperatorConnection.h" />
+        <option value="$PROJECT_DIR$/source/neurons/connections/BasicConnection.h" />
+        <option value="$PROJECT_DIR$/source/main.cpp" />
+        <option value="$PROJECT_DIR$/source/neurons/connections/Connection.h" />
+        <option value="$PROJECT_DIR$/source/neurons/connections/Connection.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/source/ErrorTypes.h" />
+        <option value="$PROJECT_DIR$/source/neurons/BasicNeuron.cpp" />
+        <option value="$PROJECT_DIR$/source/CPTypes.h" />
+        <option value="$PROJECT_DIR$/source/neurons/BasicNeuron.h" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CLion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CLion" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="set back&#9;ACTION&#9;Images.SetBackgroundImage&#10;set background image&#9;ACTION&#9;Images.SetBackgroundImage" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\c516792\Documents\UniWork\Projects\CPPANN\source\neurons\connections" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CPPANN">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPPANN" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPPANN" TARGET_NAME="CPPANN" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CPPANN" RUN_TARGET_NAME="CPPANN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.CPPANN" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86b9e01d-3996-4d01-bdd1-5a77a8a15f05" name="Default Changelist" comment="" />
+      <created>1538665228471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538665228471</updated>
+      <workItem from="1538665231907" duration="1974000" />
+      <workItem from="1538675233235" duration="762000" />
+      <workItem from="1538676029060" duration="17000" />
+      <workItem from="1538686223118" duration="1231000" />
+      <workItem from="1538728275438" duration="1614000" />
+      <workItem from="1538778686245" duration="643000" />
+      <workItem from="1538845479630" duration="129000" />
+      <workItem from="1538865086049" duration="18000" />
+      <workItem from="1538949357505" duration="211000" />
+      <workItem from="1539175647070" duration="599000" />
+      <workItem from="1539265653225" duration="623000" />
+      <workItem from="1539336878377" duration="1733000" />
+      <workItem from="1539341390784" duration="478000" />
+      <workItem from="1539677994481" duration="6979000" />
+      <workItem from="1539697368978" duration="1097000" />
+      <workItem from="1539701113648" duration="490000" />
+      <workItem from="1539792261817" duration="596000" />
+      <workItem from="1539812014525" duration="892000" />
+      <workItem from="1539861744637" duration="1107000" />
+      <workItem from="1539959681798" duration="23000" />
+      <workItem from="1539960068319" duration="2773000" />
+      <workItem from="1540051219190" duration="967000" />
+      <workItem from="1540070088237" duration="1620000" />
+      <workItem from="1540138789320" duration="1992000" />
+      <workItem from="1540148507181" duration="1261000" />
+      <workItem from="1540820075467" duration="473000" />
+      <workItem from="1540820919558" duration="6976000" />
+      <workItem from="1541079386636" duration="106000" />
+      <workItem from="1541603930563" duration="244000" />
+      <workItem from="1541607744505" duration="809000" />
+      <workItem from="1542126621508" duration="11000" />
+      <workItem from="1543419212888" duration="22000" />
+      <workItem from="1543419330270" duration="145000" />
+      <workItem from="1543419618315" duration="126000" />
+      <workItem from="1543421028333" duration="7000" />
+      <workItem from="1543926505872" duration="385000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39133000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.42810458" visible="true" weight="0.2246596" />
+      <window_info id="Structure" order="1" sideWeight="0.5718954" side_tool="true" visible="true" weight="0.2246596" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/source/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1224" />
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdint-gcc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3819" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/source/neurons/connections/OperatorConnection.cpp" />
+    <entry file="file://$PROJECT_DIR$/source/neurons/connections/BasicConnection.cpp" />
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/source/signals/Delegates.h" />
+    <entry file="file://$PROJECT_DIR$/source/signals/Signals.h" />
+    <entry file="file://$PROJECT_DIR$/source/neurons/connections/Connection.cpp" />
+    <entry file="file://$PROJECT_DIR$/source/neurons/connections/Connection.h" />
+    <entry file="file://$PROJECT_DIR$/source/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/CPTypes.h" />
+    <entry file="file://$PROJECT_DIR$/source/neurons/BasicNeuron.h" />
+    <entry file="file://$PROJECT_DIR$/source/neurons/connections/BasicConnection.h" />
+    <entry file="file://$PROJECT_DIR$/source/neurons/BasicNeuron.cpp" />
+    <entry file="file://$PROJECT_DIR$/source/neurons/connections/OperatorConnection.h" />
+  </component>
+</project>

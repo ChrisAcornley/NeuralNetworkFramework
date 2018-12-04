@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Signals">
+      <UniqueIdentifier>{c04a6866-39eb-4405-920a-9e624fddffbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Neurons">
+      <UniqueIdentifier>{25e550ff-d97d-48fc-881e-98ab3fd93441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Neurons\Connections">
+      <UniqueIdentifier>{1d5d281d-2b37-4236-80ec-08979928a5af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Neurons">
+      <UniqueIdentifier>{ae00d523-1cd0-41be-970f-2ffc9b18ff07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Neurons\Connections">
+      <UniqueIdentifier>{116f1634-771b-4747-8aa9-868bd69de076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{1cf4b980-577a-4ae9-9d12-6416d128023e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Types">
+      <UniqueIdentifier>{5b689093-ea9c-435e-8ac2-9115c2cdb78f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Source\CPTypes.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Neurons\BasicNeuron.h">
+      <Filter>Header Files\Neurons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Neurons\Connections\OperatorConnection.h">
+      <Filter>Header Files\Neurons\Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Neurons\Connections\Connection.h">
+      <Filter>Header Files\Neurons\Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Neurons\Connections\BasicConnection.h">
+      <Filter>Header Files\Neurons\Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Signals\Delegates.h">
+      <Filter>Header Files\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Signals\Signals.h">
+      <Filter>Header Files\Signals</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Neurons\Connections\Connection.cpp">
+      <Filter>Source Files\Neurons\Connections</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Neurons\BasicNeuron.cpp">
+      <Filter>Source Files\Neurons</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
