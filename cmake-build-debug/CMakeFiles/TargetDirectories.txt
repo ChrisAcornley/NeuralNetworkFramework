@@ -1,3 +1,0 @@
-C:/Users/c516792/Documents/UniWork/Projects/CPPANN/cmake-build-debug/CMakeFiles/CPPANN.dir
-C:/Users/c516792/Documents/UniWork/Projects/CPPANN/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/c516792/Documents/UniWork/Projects/CPPANN/cmake-build-debug/CMakeFiles/rebuild_cache.dir
