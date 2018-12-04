@@ -5,7 +5,7 @@
 #ifndef CPPANN_BASICCONNECTION_H
 #define CPPANN_BASICCONNECTION_H
 
-#include "../../Signals/Signals.h"
+#include "Signals/Signals.h"
 
 namespace CPPANN {
 

@@ -23,9 +23,6 @@ namespace CPPANN {
                                   "Pre existing connection of the same type exists",
                                   "Cannot add new input to neuron"};
 
-    typedef unsigned NID_TYPE;
-    typedef unsigned CID_TYPE;
-
     struct MessageException : public std::exception {
         RTYPE errorType;
         std::string extra;

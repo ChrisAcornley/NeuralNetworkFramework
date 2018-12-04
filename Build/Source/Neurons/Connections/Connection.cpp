@@ -3,7 +3,7 @@
 //
 
 #include "Connection.h"
-#include "../BasicNeuron.h"
+#include "Neurons/BasicNeuron.h"
 
 namespace CPPANN {
     void Connection::pass(double input) {
